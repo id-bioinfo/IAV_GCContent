@@ -1,6 +1,6 @@
 # Genomic insights into sustained mammalian transmission of avian influenza A viruses
 
-+ Data and materials used in this study includes the phylogenetic trees of eight protein coding regions for persistent mammalian lineage classification and H5 gene for latest emerging H5NX, the summary of statistics for genomic GC content, CG frequency and SVM model files.
++ Data and materials used in this study include the phylogenetic trees of eight protein coding regions and H5 gene for recently emerging H5Nx, the summary of statistics for genomic GC content, GC dinucleotide frequency and SVM model files.
 
 + The developed SVM model is available at https://iav-transmission.org/.
 
