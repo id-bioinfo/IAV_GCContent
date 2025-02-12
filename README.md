@@ -10,7 +10,12 @@ The repo contains all analyzed data in this study including the phylogenetic tre
 + The tool is publicly available at https://iav-transmission.org/.
 + It is designed to assess the risk of sustained transmission in mammals for avian or recently zoonotic influenza A viruses.
 + It classifies mammalian IAVs as from either persistent (positive class) or sporadic (negative class) mammalian infections that achieved high accuracies of 99.61% for training (5-fold cross validation balanced accuracy = 99.13%) and 99.16% for testing.  
-+ It was developed by a support vector machine (SVM) model implemented in LIBSVM with linear kernel (https://github.com/cjlin1/libsvm).
 + It is easy to use by uploading eight protein coding regions (HA, NA, NP, PA, PB1, PB2, M1 and NS1) or eight nucleotide segments (HA, NA, NP, PA, PB1, PB2, MP and NS) for this risk assessment.
 + The source codes for the website is accesible at https://github.com/id-bioinfo/IAVs_sustained_transmission_prediction_website.
- 
++ It was developed by a support vector machine (SVM) model implemented in LIBSVM with linear kernel (https://github.com/cjlin1/libsvm) with commands as follow.
+```bash
+#training
+svm-train -t 0 -w-1 16 $trainfile $modelfile
+#testing
+svm-predict $testfile $modelfile $testfile"_predict"
+```
