@@ -14,6 +14,7 @@ The repo contains all analyzed data in this study including the phylogenetic tre
 + The source codes for the website is accesible at https://github.com/id-bioinfo/IAVs_sustained_transmission_prediction_website.
 + It was developed by a support vector machine (SVM) model implemented in LIBSVM with linear kernel (https://github.com/cjlin1/libsvm) with commands as follow.
 ```bash
+#traingfile and testfile are in folder "SVM_model"
 #training
 svm-train -t 0 -w-1 16 $trainfile $modelfile
 #testing
