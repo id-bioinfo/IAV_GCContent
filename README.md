@@ -1,5 +1,5 @@
 # Genomic insights into sustained mammalian transmission of avian influenza A viruses
-<img src="/img/intro.png" width="300">
+<img src="intro.png" width="500">
 
 Very few lineages of influenza A virus (IAV) have evolved sustained transmission in mammals. Why this is so remains largely unknown and the possibility of avian IAVs achieving sustained mammalian transmission is a pervasive concern. All available whole genomes of IAVs were assessed for their GC content and GC containing dinucleotide frequencies. Persistent mammalian lineages showed declining trends and could be accurately separated from avian lineages. Early viruses of the persistent mammalian lineages were also distinguishable, by reduced GC related content, from IAVs in birds and sporadic mammalian infections. Of note, the genotype of recent highly pathogenic 2.3.4.4b H5 viruses mostly detected in gulls also showed lower GC related content, and subsequently infected mink and foxes with evident mammalian transmissibility. The findings here suggest that the pattern of reduced GC related content in avian IAVs is one of predictors of enhanced ability to persist in mammals and should be included in risk assessment tools for pandemic influenza.
 
