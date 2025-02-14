@@ -12,7 +12,7 @@ Very few lineages of influenza A virus (IAV) have evolved sustained transmission
 # Risk assessment tool
 <img src="intro.png" width="500">
 
-+ The tool is publicly available at https://iav-transmission.org/.
++ The tool is publicly available at https://iav-transmission.org/ which has been tested by commonly used browsers (Google Chrome, Firefox, Safari and Microsoft Edge).
 + It is designed to assess the risk of sustained transmission in mammals for avian or recently zoonotic influenza A viruses.
 + It classifies mammalian IAVs as from either persistent (positive class) or sporadic (negative class) mammalian infections that achieved high accuracies of 99.61% for training (5-fold cross validation balanced accuracy = 99.13%) and 99.16% for testing.  
 + It is user-friendly by uploading eight protein coding regions (HA, NA, NP, PA, PB1, PB2, M1 and NS1) or eight nucleotide segments (HA, NA, NP, PA, PB1, PB2, MP and NS) for this risk assessment.
