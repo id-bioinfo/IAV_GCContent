@@ -17,7 +17,7 @@ Very few lineages of influenza A virus (IAV) have evolved sustained transmission
 + It classifies mammalian IAVs as from either persistent (positive class) or sporadic (negative class) mammalian infections that achieved high accuracies of 99.61% for training (5-fold cross validation balanced accuracy = 99.13%) and 99.16% for testing.  
 + It is user-friendly by uploading eight protein coding regions (HA, NA, NP, PA, PB1, PB2, M1 and NS1) or eight nucleotide segments (HA, NA, NP, PA, PB1, PB2, MP and NS) for this risk assessment.
 + The source codes for the website is accesible at https://github.com/id-bioinfo/IAVs_sustained_transmission_prediction_website.
-+ The classifier was based on a support vector machine (SVM) model implemented in LIBSVM with linear kernel (https://github.com/cjlin1/libsvm) that can be trained and tested by following commands.
++ The classifier was based on a support vector machine (SVM) model implemented in LIBSVM v3.3 with linear kernel (https://github.com/cjlin1/libsvm) that can be trained and tested by following commands.
 ```bash
 #traingfile and testfile are in folder "SVM_model"
 #training
