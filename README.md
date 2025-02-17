@@ -15,7 +15,7 @@ Very few lineages of influenza A virus (IAV) have evolved sustained transmission
 + The tool is publicly available at https://iav-transmission.org/ which has been successfully tested on 4 commonly used browsers (Google Chrome, Mozilla Firefox, Apple Safari and Microsoft Edge).
 + It is designed to assess the risk of sustained transmission in mammals for avian or recently zoonotic influenza A viruses.
 + It classifies mammalian IAVs as from either persistent (positive class) or sporadic (negative class) mammalian infections that achieved high accuracies of 99.61% for training (5-fold cross validation balanced accuracy = 99.13%) and 99.16% for testing.  
-+ It is user-friendly by uploading eight protein coding regions (HA, NA, NP, PA, PB1, PB2, M1 and NS1) or eight nucleotide segments (HA, NA, NP, PA, PB1, PB2, MP and NS) for this risk assessment.
++ It provides a convenient and easy-to-use interface for users to upload eight protein coding regions (HA, NA, NP, PA, PB1, PB2, M1 and NS1) or eight nucleotide segments (HA, NA, NP, PA, PB1, PB2, MP and NS) for this risk assessment.
 + The source codes for the website is accesible at https://github.com/id-bioinfo/IAVs_sustained_transmission_prediction_website.
 + The classifier was based on a support vector machine (SVM) model implemented in LIBSVM v3.3 with linear kernel (https://github.com/cjlin1/libsvm).
 + A demo to apply our SVM model to test the risk of sustained mammalian transmission for recently zoonotic mink H5 viruses.
