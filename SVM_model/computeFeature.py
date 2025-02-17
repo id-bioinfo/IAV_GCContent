@@ -74,7 +74,7 @@ for i, fasta_file in enumerate(fasta_files, start=0):
         print(f"An error occurred while processing {fasta_file}: {e}")
 
 # Write GC content and GC dinucleotide frequency in LIBSVM format
-output_file = "gc_content_dinucleotide_libsvm.txt"
+output_file = prefix_path + "gc_content_dinucleotide_libsvm.txt"
 with open(output_file, "w") as out:
     for virus_id, segment_data in virus_segment_data.items():
         # Use a dummy label (e.g., negative -1) as we don't have actual labels
