@@ -5,7 +5,7 @@ Very few lineages of influenza A virus (IAV) have evolved sustained transmission
 <img src="genomic_insight.png" width="800">
 
 # Content
-+ The repo contains all analyzed data in this study including the phylogenetic trees of eight protein coding regions and H5 gene for recently emerging H5Nx, the summary of statistics for genomic GC content, GC dinucleotide frequency and SVM model files. 
++ The repo contains the analyzed data in this study including the phylogenetic trees of eight protein coding regions and H5 gene for recently emerging H5Nx, the summary of statistics for genomic GC content, GC dinucleotide frequency and SVM model files. 
 
 + The influenza A virus genomic data are downloaded from GISAID with accession numbers found in EPI_SET_20220531ye and EPI_SET_250116bq at https://www.gisaid.org/.
 
