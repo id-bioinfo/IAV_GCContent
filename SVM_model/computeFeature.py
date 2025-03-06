@@ -46,7 +46,7 @@ fasta_files = [
 # Dictionary to store GC content and dinucleotide frequencies for each virus and segment
 virus_segment_data = defaultdict(lambda: [None] * len(fasta_files))
 
-prefix_path = "MinkH5_for_demo_using_cds/"
+prefix_path = "demo_minkH5_cds/"
 # Process each FASTA file
 for i, fasta_file in enumerate(fasta_files, start=0):
     try:
