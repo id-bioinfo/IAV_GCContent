@@ -14,7 +14,7 @@ def calculate_gc_content(sequence):
 
     if total_count == 0:
         return 0  # Avoid division by zero
-    return gc_count / total_count * 100
+    return gc_count / total_count * 100, gc_count, total_count
 
 def calculate_dinucleotide_frequency(sequence, first_base, second_base):
     """Calculate dinucleotide frequency of a given DNA sequence."""
@@ -45,6 +45,7 @@ fasta_files = [
 
 # Dictionary to store GC content and dinucleotide frequencies for each virus and segment
 virus_segment_data = defaultdict(lambda: [None] * len(fasta_files))
+virus_genomicGC = defaultdict(lambda: [None] * 2)
 
 prefix_path = "demo_minkH5_cds/"
 # Process each FASTA file
@@ -56,7 +57,7 @@ for i, fasta_file in enumerate(fasta_files, start=0):
                 # Ensure the sequence is in uppercase
                 sequence = str(record.seq).upper()  
                 # Calculate GC content for this sequence
-                gc_content = calculate_gc_content(sequence)
+                gc_content, gc_count, total_count  = calculate_gc_content(sequence)
                 # Calculate CpG frequency for this sequence
                 cpg_frequency = calculate_dinucleotide_frequency(sequence, 'C', 'G')
                 # Calculate GpC frequency for this sequence
@@ -68,10 +69,20 @@ for i, fasta_file in enumerate(fasta_files, start=0):
 
                 # Store the data for this virus and segment (index i)
                 virus_segment_data[record.id][i] = (gc_content, cpg_frequency, gpc_frequency, gpg_frequency, cpc_frequency)
+                if i == 0:
+                    virus_genomicGC[record.id][0] = gc_count
+                    virus_genomicGC[record.id][1] = total_count
+                else:
+                    virus_genomicGC[record.id][0] = virus_genomicGC[record.id][0] + gc_count
+                    virus_genomicGC[record.id][1] = virus_genomicGC[record.id][1] + total_count
     except FileNotFoundError:
         print(f"Error: File '{fasta_file}' not found. Please check the file path.")
     except Exception as e:
         print(f"An error occurred while processing {fasta_file}: {e}")
+
+#print out genomic GC content
+for virus_id, genomicGC in virus_genomicGC.items():
+        print(f"{virus_id}: {genomicGC[0]/genomicGC[1]*100}")
 
 # Write GC content and GC dinucleotide frequency in LIBSVM format
 output_file = prefix_path + "gc_content_dinucleotide_libsvm.txt"
