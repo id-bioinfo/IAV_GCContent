@@ -23,7 +23,7 @@ Very few lineages of influenza A virus (IAV) have evolved sustained transmission
     + runRNAfold.sh: calculate the RNA folding free energy in Extended Fig. 2.
     + LDA_plot_2d_cds: linear discriminant analysis to generate Extended Fig4.
     + runLIBSVM.sh: train and test by SVM model
-+ Due to GISAID's data sharing policy, the influenza A virus genomic data are not shared here but can be downloaded from GISAID with accession numbers found in EPI_SET_20220531ye and EPI_SET_250116bq at https://www.gisaid.org/.
++ Due to GISAID's data sharing policy, the influenza A virus genomic data are not shared here but can be downloaded with accession numbers found in EPI_SET_20220531ye and EPI_SET_250116bq at https://www.gisaid.org/.
 
 # Risk assessment tool
 <img src="intro.png" width="500">
