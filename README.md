@@ -5,8 +5,14 @@ Very few lineages of influenza A virus (IAV) have evolved sustained transmission
 <img src="genomic_insight.png" width="800">
 
 # Content
-+ The repo contains the analyzed data in this study including the phylogenetic trees of eight protein coding regions and H5 gene for recently emerging H5Nx, the summary of statistics for genomic GC content, GC dinucleotide frequency and SVM model files. 
-+ Scripts used for the analysis in this study
++ The repo contains the analyzed data in this study.
+  + Trees: the phylogenetic trees of eight protein coding regions and H5 gene for recently emerging H5Nx.
+  + GC_content: the summary of statistics for genomic GC content.
+  + Dinucleotide: the summary of statistics for GC dinucleotide frequency.
+  + CAI: the summary of statistics for codon usage bias.
+  + MFE: the summary of statistics for RNA folding free energy.
+  + SVM_model: the SVM model files and demo.
++ Scripts used for the analysis in this study.
   + computeFeature.py: calculate GC content (including GC3 and GC12), GC dinucleotide frequency and O/E ratio that generate data in Fig. 2, Fig. 3a,d,e, Fig. 4a,b and feature files for LDA analysis (Fig. 4c) and SVM model (Fig. 4-5).
   + causal_discovery.r: causal inference using the linear non-Gaussian acyclic model in the ‘pcalg’ R package in Fig. 3c.
   + compute_cai.ipynb: calculate the codon adaption index with refenrence (host) codon usage table in folder of ref_codon_usage_table.
