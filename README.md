@@ -26,7 +26,7 @@ Very few lineages of influenza A virus (IAV) have evolved sustained transmission
 + A demo to apply our SVM model to test the risk of sustained mammalian transmission for recently zoonotic mink H5 viruses.
 ```bash
 #compute the features of GC content and GC dinucleotide frequency (CpG, GpC, GpG and CpC) from fasta files in LIBSVM format
-#please firstly edit the path to fasta files in SVM_model/computeFeature.py
+#please firstly edit the path to fasta files in Scripts/computeFeature.py
 python computeFeature.py
 #apply our SVM model for the risk assessment
 modelfile=SVM_model/cds/training_svm.model
