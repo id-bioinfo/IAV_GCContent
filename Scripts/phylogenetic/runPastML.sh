@@ -3,7 +3,7 @@
 cd ~/yytao/influenza/data/filter
 method=DOWNPASS
 gene=PB2
-intree=$gene"_nt_pal2nal.fasttree_midpoint_collapsed_InnodeNameAdded"
+intree=$gene"_fasttree.midpoint.collapsed_InnodeNameAdded.nwk"
 hostinfofile=$gene"_host_info.tsv"
 cd pastml
 outfolder=$gene"_"$method
