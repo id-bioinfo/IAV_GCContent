@@ -19,10 +19,13 @@ Very few lineages of influenza A virus (IAV) have evolved sustained transmission
     + computeFeature.py: calculate GC content (including GC3 and GC12), GC dinucleotide frequency and O/E ratio that generate data in Fig. 2, Fig. 3a,d,e, Fig. 4a,b and feature files for LDA analysis (Fig. 4c) and SVM model (Fig. 4-5).
     + causal_discovery.r: causal inference using the linear non-Gaussian acyclic model in the ‘pcalg’ R package in Fig. 3c.
     + LDA_plot_2d_all: linear discriminant analysis to generate Fig4c and Fig5a,c.
-    + compute_cai.ipynb: calculate the codon adaption index with refenrence (host) codon usage table in folder of ref_codon_usage_table in Extended Fig. 1.
-    + runRNAfold.sh: calculate the RNA folding free energy in Extended Fig. 2.
-    + LDA_plot_2d_cds: linear discriminant analysis to generate Extended Fig4.
+    + compute_cai.ipynb: calculate the codon adaption index with refenrence (host) codon usage table in folder of ref_codon_usage_table in Extended Data Fig. 1.
+    + runRNAfold.sh: calculate the RNA folding free energy in Extended Data Fig. 2.
+    + LDA_plot_2d_cds: linear discriminant analysis to generate Extended Data Fig4.
+    + pointmutation_genotype_plot.R: plot for genotype in Extended Data Fig. 6b and point mutations in Extended Data Fig. 7.
+    + phylogeographics_plot.R: plot for discrete phylogeographical inference in Extended Data Fig. 6c.
     + runLIBSVM.sh: train and test by SVM model
+    
 + Due to GISAID's data sharing policy, the influenza A virus genomic data are not shared here but can be downloaded with accession numbers found in EPI_SET_20220531ye and EPI_SET_250116bq at https://www.gisaid.org/.
 
 # Risk assessment tool
