@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd ~/yytao/influenza/data/filter/partition
+cd ./filter
 
 arraygene=(HA NA NP PA PB1 PB2 M1 NS1)
 for gene in ${arraygene[@]}

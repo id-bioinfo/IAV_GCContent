@@ -1,7 +1,7 @@
 #!/bin/sh
 
 gene=PB2
-cd ~/yytao/influenza/data/filter/partition/$gene
+cd ./filter/partition/$gene
 
 for((i=0;i<14;i++));
 do

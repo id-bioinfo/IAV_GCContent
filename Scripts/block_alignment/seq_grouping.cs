@@ -12,8 +12,8 @@ namespace seq_grouping
         static void Main(string[] args)
         {
             List<string> proteinId = new List<string> { "HA", "NA", "NP", "PA", "PB1", "PB2", "M1", "NS1" };
-            string prefixPath = "~/yytao/influenza/data/filter/";
-            string prefixoutPath = "~/yytao/influenza/data/filter/partition/";
+            string prefixPath = "filter/";
+            string prefixoutPath = "filter/partition/";
             string seqName, subType;
             double collectDate = 0;
             for(int i=0; i<proteinId.Count; ++i)
