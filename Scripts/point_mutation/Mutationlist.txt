@@ -1,0 +1,58 @@
+col_name	site	func
+PB2_63	63	I63T Decreased pathogenicity in mice
+PB2_256	256	D256G Enhanced polymerase activity, mammalian host adaptation
+PB2_271	271	T271A Increase polymerase activity in avian and mammalian cell line
+PB2_591	591	Q591K Enhanced replication efficiency and increased virulence in mice
+PB2_627	627	E627K/V Mammalian host adaptation, increase virulence in mice
+PB2_701	701	D701N Mammalian host adaptation, Enhanced replication efficiency and transmission in guinea pigs, increased virulence in mice
+PB1_207	207	R207K Increased polymerase activity in mammalian cells
+PB1_375	375	S375N/T Increased polymerase activity, Increased virulence in mammals, Human host marker
+PB1_436	436	Y436H Decreased polymerase activity and virulence in mallards, ferrets and mice
+PB1_598	598	P598L Decreased polymerase activity and replication efficiency
+PB1_677	677	T677M Decreased virulence in mice
+PB1-F2_66	66	N66S Enhanced replication, virulence and antiviral response in mice
+PA_515	515	T515A Decreased polymerase activity in mammalian cells 
+PA_149	149	S149P Increased polymerase activity, Increased virulence in mammals and birds
+PA_266	266	H266R Increased polymerase activity, Increased virulence in mammals and birds
+PA_357	357	I357K Increased polymerase activity, Increased virulence in mammals and birds
+PA-X_232	233	W233X Truncations resulting in loss of PA-X expression Increased viral replication in mammalian and avian cell lines; increased infammatory response in mice
+HA_101	110	D101S Increased virus binding to α2-6; enhanced virus fusion
+HA_137	149	S137A Increased psuedovirus binding to α2-6
+HA_159	171	S159N Increased virus binding to α2-6 
+HA_160	172	T160A removes a potential N-glycosylation site at position 158, Increased virus binding to α2-6 and increased transmission in guinea pigs
+HA_187	199	D187G Increased virus binding to α2-6
+HA_193	205	K193N Increased virus binding to α2-6
+HA_196	208	Q196R/H Increased virus binding to α2-6 
+HA_227	239	S227R Increased virus binding to α2-6, emerged in the course of virus replication in a patient (fatal case)
+HA_226	238	Q226L Increased virus binding to α2-6
+HA_228	240	G228S Increased virus binding to α2-6
+HA_239	251	P239S Increase in SAα2,6Gal binding
+NP_109	109	I109T Increased polymerase activity and viral replication in chickens (but not ducks), increased virulence in chickens
+NP_319	319	N319K Enhanced replication efficiency
+NP_357	357	Q357L Enhanced virulence in mice
+NA_119	119	E119A Reduced susceptibility to zanamivir, oseltamivir and/or peramivir
+NA_136	136	Q136L Reduced susceptiblity to oseltamivir, zanamivir, and peramivir 
+NA_198	199	D198G Reduced susceptibility to oseltamivir and zanamivir
+NA_222	223	I222M/K Reduced susceptibility to oseltamivir
+NA_246	247	S246N Reduced susceptibility to oseltamivir
+NA_274	275	H274Y Reduced susceptibility to oseltamivir and peramivir
+NA_277	278	E277Q Reduced susceptibility to oseltamivir
+M1_30	30	N30D Increased virulence in mice
+M1_43	43	I43M Increased virulence in mice, chickens and ducks
+M1_215	215	T215A Increased virulence in mice
+M2_26	26	L26F Reduced susceptibility to amantadine and rimantadine
+M2_27	27	I/V27A/T/S Reduced susceptibility to amantadine and rimantadine
+M2_30	30	A30V/T/S Increased resistance to amantadine and rimantadine
+M2_31	31	S31N/G Increased resistance to amantadine and rimantadine
+M2_34	34	G34E Increased resistance to amantadine and rimantadine
+NS1_42	42	P42S Increased virulence in mice
+NS1_80del	82	80del84 Increased virulence in mice
+NS1_92	92	D92E Increased virulence in mice
+NS1_103	103	L103F Increased virulence in mice
+NS1_106	106	I106M Increased virulence in mice
+NS1_205	205	N205S Decreased antiviral response in ferrets
+NS1_210	210	G210R Decreased antiviral response in ferrets
+NS1_215	215	P215T Human host marker
+NS2_16	16	M16I Increased polymerase activity in mammalian cell line
+NS2_47	48	T47A Decreased antiviral response in ferrets
+NS2_51	52	M51I Decreased antiviral response in ferrets
