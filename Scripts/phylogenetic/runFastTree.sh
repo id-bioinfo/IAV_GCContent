@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd ~/yytao/influenza/data/filter
+cd ./filter
 gene=PB2
 infile=$gene"_nt.pal2nal"
 outfile=$gene"_nt_pal2nal.fasttree"
