@@ -1,0 +1,3038 @@
+{
+  "axisAttributes": {
+    "xCoordinate": "xCoordinate",
+    "yCoordinate": "yCoordinate"
+  },
+  "lineAttributes": [
+    {
+      "id": "bayesFactor",
+      "scale": "linear",
+      "range": [
+        0.07,
+        127796.26
+      ]
+    },
+    {
+      "id": "posteriorProbability",
+      "scale": "linear",
+      "range": [
+        0.0,
+        1.0
+      ]
+    }
+  ],
+  "pointAttributes": [
+    {
+      "id": "xCoordinate",
+      "scale": "linear",
+      "range": [
+        -15.310139,
+        31.8926644
+      ]
+    },
+    {
+      "id": "yCoordinate",
+      "scale": "linear",
+      "range": [
+        13.443182,
+        61.92411
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "Austria",
+      "coordinate": {
+        "xCoordinate": 14.550072,
+        "yCoordinate": 47.516231,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Belgium",
+      "coordinate": {
+        "xCoordinate": 4.469936,
+        "yCoordinate": 50.503887,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Czech_Republic",
+      "coordinate": {
+        "xCoordinate": 15.472962,
+        "yCoordinate": 49.817492,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Denmark",
+      "coordinate": {
+        "xCoordinate": 9.501785,
+        "yCoordinate": 56.26392,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "England",
+      "coordinate": {
+        "xCoordinate": -1.1743197,
+        "yCoordinate": 52.3555177,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Finland",
+      "coordinate": {
+        "xCoordinate": 25.748151,
+        "yCoordinate": 61.92411,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "France",
+      "coordinate": {
+        "xCoordinate": 2.213749,
+        "yCoordinate": 46.22764,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Gambia",
+      "coordinate": {
+        "xCoordinate": -15.310139,
+        "yCoordinate": 13.443182,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Germany",
+      "coordinate": {
+        "xCoordinate": 10.451526,
+        "yCoordinate": 51.165691,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Isle_of_Man",
+      "coordinate": {
+        "xCoordinate": -4.548056,
+        "yCoordinate": 54.236107,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Italy",
+      "coordinate": {
+        "xCoordinate": 12.56738,
+        "yCoordinate": 41.87194,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Jersey",
+      "coordinate": {
+        "xCoordinate": -2.1357662,
+        "yCoordinate": 49.2137711,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Leningrad_region",
+      "coordinate": {
+        "xCoordinate": 31.8926644,
+        "yCoordinate": 60.0793208,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Luxembourg",
+      "coordinate": {
+        "xCoordinate": 6.129583,
+        "yCoordinate": 49.815273,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Netherlands",
+      "coordinate": {
+        "xCoordinate": 5.291266,
+        "yCoordinate": 52.132633,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Poland",
+      "coordinate": {
+        "xCoordinate": 19.145136,
+        "yCoordinate": 51.919438,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Scotland",
+      "coordinate": {
+        "xCoordinate": -4.2026458,
+        "yCoordinate": 56.4906712,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Spain",
+      "coordinate": {
+        "xCoordinate": -3.74922,
+        "yCoordinate": 40.463667,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Wales",
+      "coordinate": {
+        "xCoordinate": -3.7837117,
+        "yCoordinate": 52.1306607,
+        "altitude": 0.0
+      }
+    }
+  ],
+  "layers": [
+    {
+      "type": "tree",
+      "id": "D:\\work\\projects\\Influenza evolution\\manuscript\\genotype_plot\\Phylogeo\\beast\\H5G2R123.log",
+      "description": "BF graph layer",
+      "points": [
+        {
+          "id": "529397326",
+          "locationId": "Isle_of_Man",
+          "attributes": {}
+        },
+        {
+          "id": "2079624560",
+          "locationId": "Jersey",
+          "attributes": {}
+        },
+        {
+          "id": "60887977",
+          "locationId": "England",
+          "attributes": {}
+        },
+        {
+          "id": "928898448",
+          "locationId": "Netherlands",
+          "attributes": {}
+        },
+        {
+          "id": "80085417",
+          "locationId": "Spain",
+          "attributes": {}
+        },
+        {
+          "id": "1017581365",
+          "locationId": "Austria",
+          "attributes": {}
+        },
+        {
+          "id": "811710550",
+          "locationId": "Finland",
+          "attributes": {}
+        },
+        {
+          "id": "2125596007",
+          "locationId": "Gambia",
+          "attributes": {}
+        },
+        {
+          "id": "1440158435",
+          "locationId": "Belgium",
+          "attributes": {}
+        },
+        {
+          "id": "1829579352",
+          "locationId": "Czech_Republic",
+          "attributes": {}
+        },
+        {
+          "id": "1726992506",
+          "locationId": "Luxembourg",
+          "attributes": {}
+        },
+        {
+          "id": "418800704",
+          "locationId": "Scotland",
+          "attributes": {}
+        },
+        {
+          "id": "70969475",
+          "locationId": "Italy",
+          "attributes": {}
+        },
+        {
+          "id": "1989290987",
+          "locationId": "Leningrad_region",
+          "attributes": {}
+        },
+        {
+          "id": "83343088",
+          "locationId": "Wales",
+          "attributes": {}
+        },
+        {
+          "id": "1077783494",
+          "locationId": "Denmark",
+          "attributes": {}
+        },
+        {
+          "id": "1898810230",
+          "locationId": "Poland",
+          "attributes": {}
+        },
+        {
+          "id": "2112320571",
+          "locationId": "France",
+          "attributes": {}
+        },
+        {
+          "id": "1588421523",
+          "locationId": "Germany",
+          "attributes": {}
+        }
+      ],
+      "lines": [
+        {
+          "startPointId": "1017581365",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.5058565003253561,
+            "posteriorProbability": 0.028416779431664412
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 0.6131084603381588,
+            "posteriorProbability": 0.03423545331529093
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 0.665958410436628,
+            "posteriorProbability": 0.03707713125845737
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 0.4096864055630087,
+            "posteriorProbability": 0.02313937753721245
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.7904964349151632,
+            "posteriorProbability": 0.04370771312584574
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 0.39743200285278263,
+            "posteriorProbability": 0.02246278755074425
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 0.4564083582961976,
+            "posteriorProbability": 0.02571041948579161
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 0.5083361397083477,
+            "posteriorProbability": 0.02855209742895805
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.3998815261302331,
+            "posteriorProbability": 0.02259810554803789
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 0.9662138277464114,
+            "posteriorProbability": 0.05290933694181326
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 1.1560278264428319,
+            "posteriorProbability": 0.06265223274695535
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 1.306411196777632,
+            "posteriorProbability": 0.07023004059539918
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 1.3145366565156704,
+            "posteriorProbability": 0.07063599458728011
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 0.7751541718880853,
+            "posteriorProbability": 0.042895805142083895
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 0.4810980425638859,
+            "posteriorProbability": 0.02706359945872801
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.4440892167358451,
+            "posteriorProbability": 0.02503382949932341
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 0.4564083582961976,
+            "posteriorProbability": 0.02571041948579161
+          }
+        },
+        {
+          "startPointId": "1017581365",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 0.4440892167358451,
+            "posteriorProbability": 0.02503382949932341
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 127796.26204237205,
+            "posteriorProbability": 1.0
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 2.712909452008773,
+            "posteriorProbability": 0.13558863328822734
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 692.779844908545,
+            "posteriorProbability": 0.9756427604871448
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 4.9368366443054015,
+            "posteriorProbability": 0.22205683355886333
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 0.8366799331662006,
+            "posteriorProbability": 0.046143437077131255
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 1.255114269243229,
+            "posteriorProbability": 0.06765899864682003
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 1.3879864891045552,
+            "posteriorProbability": 0.07428958051420839
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.3851945518685355,
+            "posteriorProbability": 0.02178619756427605
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 14.116065678741755,
+            "posteriorProbability": 0.4493910690121786
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 38.78770111224553,
+            "posteriorProbability": 0.6916102841677944
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 121.48146078456105,
+            "posteriorProbability": 0.8753721244925575
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 11.413770095113307,
+            "posteriorProbability": 0.39756427604871447
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 628.2275431322972,
+            "posteriorProbability": 0.9732070365358593
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 1286.9245000327778,
+            "posteriorProbability": 0.9867388362652233
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.17255291075612053,
+            "posteriorProbability": 0.009878213802435724
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 858.1398508285213,
+            "posteriorProbability": 0.9802435723951286
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 0.3705319374812181,
+            "posteriorProbability": 0.02097428958051421
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 0.35345626142852954,
+            "posteriorProbability": 0.020027063599458727
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 0.3461482155106827,
+            "posteriorProbability": 0.01962110960757781
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 1.3362392935846938,
+            "posteriorProbability": 0.07171853856562922
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 0.19406525994445525,
+            "posteriorProbability": 0.011096075778078484
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 0.18449767794767402,
+            "posteriorProbability": 0.010554803788903925
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 0.2541007531825307,
+            "posteriorProbability": 0.014479025710419485
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.18688859195507648,
+            "posteriorProbability": 0.010690121786197564
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 0.5381457851999845,
+            "posteriorProbability": 0.03017591339648173
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 2.129078183957306,
+            "posteriorProbability": 0.10960757780784844
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 1.4592660179528578,
+            "posteriorProbability": 0.07780784844384303
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 3.9289620215999475,
+            "posteriorProbability": 0.1851150202976996
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 2.026302772242338,
+            "posteriorProbability": 0.10487144790257104
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 127796.26204237205,
+            "posteriorProbability": 1.0
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.13206252785514247,
+            "posteriorProbability": 0.007577807848443843
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 0.38274909278388264,
+            "posteriorProbability": 0.02165087956698241
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 0.22043019605399036,
+            "posteriorProbability": 0.012584573748308524
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 1.0843869627199971,
+            "posteriorProbability": 0.05899864682002706
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.782822048324603,
+            "posteriorProbability": 0.04330175913396482
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 1.2712827081445202,
+            "posteriorProbability": 0.06847090663058186
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 0.8186916845914607,
+            "posteriorProbability": 0.04519621109607578
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 0.6609116464465723,
+            "posteriorProbability": 0.036806495263870094
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.8676001910545132,
+            "posteriorProbability": 0.04776725304465494
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 0.9063991261610915,
+            "posteriorProbability": 0.04979702300405954
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 0.9063991261610915,
+            "posteriorProbability": 0.04979702300405954
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 1.0421950279300018,
+            "posteriorProbability": 0.056833558863328824
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 1.393450288232871,
+            "posteriorProbability": 0.07456021650879567
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 0.8779303914362714,
+            "posteriorProbability": 0.0483085250338295
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 0.8908596778773696,
+            "posteriorProbability": 0.0489851150202977
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.9063991261610915,
+            "posteriorProbability": 0.04979702300405954
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 0.8469749818891746,
+            "posteriorProbability": 0.04668470906630582
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 1.174692641066575,
+            "posteriorProbability": 0.06359945872801083
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.9271597463565097,
+            "posteriorProbability": 0.05087956698240866
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 11.799348387576732,
+            "posteriorProbability": 0.40554803788903926
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 2.304825556451343,
+            "posteriorProbability": 0.11759133964817321
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 0.17016591601152803,
+            "posteriorProbability": 0.009742895805142085
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.07994101922591594,
+            "posteriorProbability": 0.004600811907983762
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 0.14871228356773808,
+            "posteriorProbability": 0.008525033829499323
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 0.2372493090558532,
+            "posteriorProbability": 0.013531799729364006
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 0.1606244570952848,
+            "posteriorProbability": 0.009201623815967524
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 0.3998815261302331,
+            "posteriorProbability": 0.02259810554803789
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 127796.26204237205,
+            "posteriorProbability": 1.0
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 0.5257129767676282,
+            "posteriorProbability": 0.02949932341001353
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 127796.26204237205,
+            "posteriorProbability": 0.9998646820027064
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 2.5760361778147525,
+            "posteriorProbability": 0.12963464140730718
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 127796.26204237205,
+            "posteriorProbability": 1.0
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 0.7572877309820942,
+            "posteriorProbability": 0.04194857916102842
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 0.9505721245704645,
+            "posteriorProbability": 0.052097428958051424
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 0.6785877403765862,
+            "posteriorProbability": 0.03775372124492558
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.6684828564015765,
+            "posteriorProbability": 0.03721244925575101
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 0.7216606273654951,
+            "posteriorProbability": 0.040054127198917454
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 0.6156180711972549,
+            "posteriorProbability": 0.03437077131258457
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 0.8469749818891746,
+            "posteriorProbability": 0.04668470906630582
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 1.1880477873219892,
+            "posteriorProbability": 0.06427604871447902
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 0.8033015687760289,
+            "posteriorProbability": 0.044384303112313936
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 1.1800323829778896,
+            "posteriorProbability": 0.06387009472259811
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.7420017340632509,
+            "posteriorProbability": 0.041136671177266576
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 0.7089707166333237,
+            "posteriorProbability": 0.03937753721244926
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 0.653346815828702,
+            "posteriorProbability": 0.036400541271989176
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 1.642672875676405,
+            "posteriorProbability": 0.08673883626522327
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 1.2362866453058787,
+            "posteriorProbability": 0.06671177266576454
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 1.068542254450263,
+            "posteriorProbability": 0.058186738836265225
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 1.0369346522392098,
+            "posteriorProbability": 0.056562922868741546
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 0.974044740464215,
+            "posteriorProbability": 0.05331529093369418
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 0.8727638228444852,
+            "posteriorProbability": 0.04803788903924222
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 0.8676001910545132,
+            "posteriorProbability": 0.04776725304465494
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 1.9506566026198766,
+            "posteriorProbability": 0.1013531799729364
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 0.9193689663750951,
+            "posteriorProbability": 0.05047361299052774
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.8986260839875686,
+            "posteriorProbability": 0.04939106901217862
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 1.2362866453058787,
+            "posteriorProbability": 0.06671177266576454
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 0.9141788129069239,
+            "posteriorProbability": 0.05020297699594046
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 0.5132974914625291,
+            "posteriorProbability": 0.02882273342354533
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 254.07088952475146,
+            "posteriorProbability": 0.9362652232746955
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 0.44655167701442744,
+            "posteriorProbability": 0.02516914749661705
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 0.4564083582961976,
+            "posteriorProbability": 0.02571041948579161
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 0.3558936224134212,
+            "posteriorProbability": 0.02016238159675237
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 0.35345626142852954,
+            "posteriorProbability": 0.020027063599458727
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 0.5630635166731879,
+            "posteriorProbability": 0.031529093369418136
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 0.4440892167358451,
+            "posteriorProbability": 0.02503382949932341
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.3583316567024523,
+            "posteriorProbability": 0.02029769959404601
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 28.466629743966806,
+            "posteriorProbability": 0.6220568335588633
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 13.840592974449216,
+            "posteriorProbability": 0.4445196211096076
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.9297581542242592,
+            "posteriorProbability": 0.0510148849797023
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 1.4235583980897033,
+            "posteriorProbability": 0.07604871447902571
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 1.3416728642827855,
+            "posteriorProbability": 0.07198917456021652
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 1.3253816514379824,
+            "posteriorProbability": 0.07117726657645466
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 1.3661632026460633,
+            "posteriorProbability": 0.07320703653585926
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 1.2901815450455256,
+            "posteriorProbability": 0.06941813261163735
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 0.8392525998182068,
+            "posteriorProbability": 0.0462787550744249
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.8238275412160037,
+            "posteriorProbability": 0.04546684709066306
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 1.185375213230391,
+            "posteriorProbability": 0.06414073071718539
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 0.8033015687760289,
+            "posteriorProbability": 0.044384303112313936
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 0.9975778268153991,
+            "posteriorProbability": 0.05453315290933694
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 1.0474584233542559,
+            "posteriorProbability": 0.0571041948579161
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 1.3552706663362324,
+            "posteriorProbability": 0.0726657645466847
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 1.5394144822610822,
+            "posteriorProbability": 0.0817320703653586
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 1.3362392935846938,
+            "posteriorProbability": 0.07171853856562922
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 1.322669217893684,
+            "posteriorProbability": 0.07104194857916103
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 1.735728097191144,
+            "posteriorProbability": 0.0912043301759134
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 0.8521268914765836,
+            "posteriorProbability": 0.0469553450608931
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 2.3530353647504922,
+            "posteriorProbability": 0.11975642760487144
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 0.3412795463108255,
+            "posteriorProbability": 0.019350473612990526
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 0.3412795463108255,
+            "posteriorProbability": 0.019350473612990526
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 0.38764068761591247,
+            "posteriorProbability": 0.02192151556156969
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 0.3510195734688995,
+            "posteriorProbability": 0.019891745602165087
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 0.5955608565260692,
+            "posteriorProbability": 0.033288227334235455
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.2709846217481547,
+            "posteriorProbability": 0.015426251691474966
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 0.19406525994445525,
+            "posteriorProbability": 0.011096075778078484
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 0.5281981514443734,
+            "posteriorProbability": 0.02963464140730717
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 1.4263003100610319,
+            "posteriorProbability": 0.07618403247631934
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 2.0702159027023694,
+            "posteriorProbability": 0.10690121786197564
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 1.606264133059424,
+            "posteriorProbability": 0.08497970230040595
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 0.8366799331662006,
+            "posteriorProbability": 0.046143437077131255
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.816124847930732,
+            "posteriorProbability": 0.04506089309878214
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 1.506166663880795,
+            "posteriorProbability": 0.08010825439783491
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 1.2067774713003412,
+            "posteriorProbability": 0.0652232746955345
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 3.5550241491054386,
+            "posteriorProbability": 0.17050067658998647
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 0.7700458669263723,
+            "posteriorProbability": 0.04262516914749662
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 1.1533645033399715,
+            "posteriorProbability": 0.0625169147496617
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.8805147778159084,
+            "posteriorProbability": 0.04844384303112314
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 1.068542254450263,
+            "posteriorProbability": 0.058186738836265225
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 1.068542254450263,
+            "posteriorProbability": 0.058186738836265225
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 0.8366799331662006,
+            "posteriorProbability": 0.046143437077131255
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 1.0290497450209684,
+            "posteriorProbability": 0.05615696887686062
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 1.1933952551123825,
+            "posteriorProbability": 0.06454668470906631
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 1.2014222608512901,
+            "posteriorProbability": 0.06495263870094722
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 1.0448263480129552,
+            "posteriorProbability": 0.056968876860622464
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 63889.48328384472,
+            "posteriorProbability": 0.9997293640054127
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.10359391284066903,
+            "posteriorProbability": 0.005953991880920162
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 1.7555847701813871,
+            "posteriorProbability": 0.09215155615696888
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 0.10596274450071154,
+            "posteriorProbability": 0.006089309878213802
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.30000410289119406,
+            "posteriorProbability": 0.017050067658998646
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 0.5108164699911395,
+            "posteriorProbability": 0.02868741542625169
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 0.3048500072517182,
+            "posteriorProbability": 0.017320703653585928
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 0.6861738668695018,
+            "posteriorProbability": 0.038159675236806495
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 0.5905535697959551,
+            "posteriorProbability": 0.03301759133964818
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "83343088",
+          "attributes": {
+            "bayesFactor": 5.108304075694884,
+            "posteriorProbability": 0.2280108254397835
+          }
+        },
+        {
+          "startPointId": "1440158435",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 8.313332726464015,
+            "posteriorProbability": 0.3246278755074425
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 127796.26204237205,
+            "posteriorProbability": 1.0
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 1.1453791451808988,
+            "posteriorProbability": 0.06211096075778078
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 0.2372493090558532,
+            "posteriorProbability": 0.013531799729364006
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 0.47862598406399215,
+            "posteriorProbability": 0.02692828146143437
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 0.8753467398835831,
+            "posteriorProbability": 0.04817320703653586
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 0.458874240083733,
+            "posteriorProbability": 0.02584573748308525
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 1.349829165155632,
+            "posteriorProbability": 0.07239512855209743
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 1.4263003100610319,
+            "posteriorProbability": 0.07618403247631934
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 1.0632667540524972,
+            "posteriorProbability": 0.05791610284167794
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 1.3389556828431508,
+            "posteriorProbability": 0.07185385656292287
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 1.390717989268192,
+            "posteriorProbability": 0.07442489851150202
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 1.1720239274021855,
+            "posteriorProbability": 0.06346414073071718
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 0.32911962203029427,
+            "posteriorProbability": 0.018673883626522326
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 3.396375380669948,
+            "posteriorProbability": 0.16414073071718538
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 0.38764068761591247,
+            "posteriorProbability": 0.02192151556156969
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 0.37297401746015824,
+            "posteriorProbability": 0.02110960757780785
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "1017581365",
+          "attributes": {
+            "bayesFactor": 1.1560278264428319,
+            "posteriorProbability": 0.06265223274695535
+          }
+        },
+        {
+          "startPointId": "1829579352",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.4096864055630087,
+            "posteriorProbability": 0.02313937753721245
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 1.0185470802408036,
+            "posteriorProbability": 0.05561569688768606
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 3.044047571764783,
+            "posteriorProbability": 0.1496617050067659
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.8495505709879907,
+            "posteriorProbability": 0.04682002706359946
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.8856857563103572,
+            "posteriorProbability": 0.04871447902571042
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.47121393209808904,
+            "posteriorProbability": 0.02652232746955345
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 1.1294291491232202,
+            "posteriorProbability": 0.061299052774018946
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 1.0343055959818725,
+            "posteriorProbability": 0.0564276048714479
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.3656498021854732,
+            "posteriorProbability": 0.020703653585926927
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.8289663109753309,
+            "posteriorProbability": 0.04573748308525034
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.8624394935630437,
+            "posteriorProbability": 0.047496617050067656
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.9531772140557218,
+            "posteriorProbability": 0.052232746955345064
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 3346.219196869015,
+            "posteriorProbability": 0.9948579161028417
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.4293287975039154,
+            "posteriorProbability": 0.02422192151556157
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.7242007564022266,
+            "posteriorProbability": 0.04018944519621109
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.18688859195507648,
+            "posteriorProbability": 0.010690121786197564
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "1440158435",
+          "attributes": {
+            "bayesFactor": 0.8469749818891746,
+            "posteriorProbability": 0.04668470906630582
+          }
+        },
+        {
+          "startPointId": "1077783494",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 0.7216606273654951,
+            "posteriorProbability": 0.040054127198917454
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 0.20124782252766515,
+            "posteriorProbability": 0.011502029769959404
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 0.5630635166731879,
+            "posteriorProbability": 0.031529093369418136
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 1.0606301403250487,
+            "posteriorProbability": 0.0577807848443843
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 0.40723416719240835,
+            "posteriorProbability": 0.023004059539918808
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 1.0579942838100436,
+            "posteriorProbability": 0.05764546684709066
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 0.9401592001848218,
+            "posteriorProbability": 0.05155615696887686
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 63889.48328384472,
+            "posteriorProbability": 0.9997293640054127
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 0.97926908114784,
+            "posteriorProbability": 0.053585926928281465
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 1.094965300327417,
+            "posteriorProbability": 0.05953991880920163
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 1.2524222667908398,
+            "posteriorProbability": 0.0675236806495264
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 1.1773621261469676,
+            "posteriorProbability": 0.06373477672530446
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 1.0106779789616231,
+            "posteriorProbability": 0.055209742895805144
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 0.5630635166731879,
+            "posteriorProbability": 0.031529093369418136
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 0.22283095055319896,
+            "posteriorProbability": 0.012719891745602166
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "1829579352",
+          "attributes": {
+            "bayesFactor": 1.1161585471502333,
+            "posteriorProbability": 0.06062246278755074
+          }
+        },
+        {
+          "startPointId": "60887977",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 0.5083361397083477,
+            "posteriorProbability": 0.02855209742895805
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 0.6684828564015765,
+            "posteriorProbability": 0.03721244925575101
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 2.277811360175752,
+            "posteriorProbability": 0.11637347767253045
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 0.782822048324603,
+            "posteriorProbability": 0.04330175913396482
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 2.265828938387966,
+            "posteriorProbability": 0.11583220568335588
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 0.97926908114784,
+            "posteriorProbability": 0.053585926928281465
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 0.4440892167358451,
+            "posteriorProbability": 0.02503382949932341
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 1.2874793560116182,
+            "posteriorProbability": 0.06928281461434371
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 1.8354275576697698,
+            "posteriorProbability": 0.0959404600811908
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 1.8182621003455517,
+            "posteriorProbability": 0.09512855209742896
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 13.165335073586366,
+            "posteriorProbability": 0.4322056833558863
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 3.609588751733576,
+            "posteriorProbability": 0.1726657645466847
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 0.48357078879740034,
+            "posteriorProbability": 0.02719891745602165
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 0.458874240083733,
+            "posteriorProbability": 0.02584573748308525
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "1077783494",
+          "attributes": {
+            "bayesFactor": 1.0632667540524972,
+            "posteriorProbability": 0.05791610284167794
+          }
+        },
+        {
+          "startPointId": "811710550",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 0.7674927973253127,
+            "posteriorProbability": 0.04248985115020298
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 1.2040994785225918,
+            "posteriorProbability": 0.06508795669824087
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 0.7369121526963675,
+            "posteriorProbability": 0.0408660351826793
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 1.7385622301363957,
+            "posteriorProbability": 0.09133964817320704
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 1.0028156371108856,
+            "posteriorProbability": 0.05480378890392422
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 0.28548238729306785,
+            "posteriorProbability": 0.016238159675236806
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 1.492348024093898,
+            "posteriorProbability": 0.07943166441136672
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 0.9479677787590538,
+            "posteriorProbability": 0.05196211096075778
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 1.4372759952084644,
+            "posteriorProbability": 0.07672530446549392
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 29.66027758032384,
+            "posteriorProbability": 0.6316644113667118
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 2.2329527979366057,
+            "posteriorProbability": 0.11434370771312584
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 298.2935562759242,
+            "posteriorProbability": 0.9451962110960758
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 0.468744621665529,
+            "posteriorProbability": 0.02638700947225981
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "60887977",
+          "attributes": {
+            "bayesFactor": 0.8598602443977406,
+            "posteriorProbability": 0.04736129905277402
+          }
+        },
+        {
+          "startPointId": "2112320571",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.6256635522412083,
+            "posteriorProbability": 0.034912043301759135
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.4810980425638859,
+            "posteriorProbability": 0.02706359945872801
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 1.2712827081445202,
+            "posteriorProbability": 0.06847090663058186
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.9375578258866255,
+            "posteriorProbability": 0.05142083897158322
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.31212387058169067,
+            "posteriorProbability": 0.017726657645466846
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 1.363438875955141,
+            "posteriorProbability": 0.07307171853856563
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 1.9303914223206076,
+            "posteriorProbability": 0.10040595399188092
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.942761316884359,
+            "posteriorProbability": 0.0516914749661705
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.24446739219262864,
+            "posteriorProbability": 0.013937753721244926
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 39.662438701810856,
+            "posteriorProbability": 0.6963464140730717
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.5281981514443734,
+            "posteriorProbability": 0.02963464140730717
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.30242672146933847,
+            "posteriorProbability": 0.017185385656292285
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "811710550",
+          "attributes": {
+            "bayesFactor": 0.9818823721118496,
+            "posteriorProbability": 0.053721244925575104
+          }
+        },
+        {
+          "startPointId": "2125596007",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 0.4638080594168595,
+            "posteriorProbability": 0.026116373477672532
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 1.1161585471502333,
+            "posteriorProbability": 0.06062246278755074
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 1.1800323829778896,
+            "posteriorProbability": 0.06387009472259811
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 0.2565107470555539,
+            "posteriorProbability": 0.014614343707713126
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 0.8676001910545132,
+            "posteriorProbability": 0.04776725304465494
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 0.8315367890551986,
+            "posteriorProbability": 0.045872801082543976
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 1.2148161036398657,
+            "posteriorProbability": 0.06562922868741543
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 13.172596291632557,
+            "posteriorProbability": 0.43234100135318
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 0.5855490851289242,
+            "posteriorProbability": 0.03274695534506089
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 0.5605686105336454,
+            "posteriorProbability": 0.03139377537212449
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 0.38764068761591247,
+            "posteriorProbability": 0.02192151556156969
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "2112320571",
+          "attributes": {
+            "bayesFactor": 1.606264133059424,
+            "posteriorProbability": 0.08497970230040595
+          }
+        },
+        {
+          "startPointId": "1588421523",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 1.595089590485832,
+            "posteriorProbability": 0.0844384303112314
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 1.4565144421535436,
+            "posteriorProbability": 0.07767253044654938
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 0.2685706518083553,
+            "posteriorProbability": 0.015290933694181327
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 1.3443908382501844,
+            "posteriorProbability": 0.07212449255751015
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 0.9583896253222821,
+            "posteriorProbability": 0.05250338294993234
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 1.4180769828544877,
+            "posteriorProbability": 0.07577807848443843
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 8.04927205175748,
+            "posteriorProbability": 0.3175913396481732
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 2.7442803897356156,
+            "posteriorProbability": 0.13694181326116373
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 0.5356578359232864,
+            "posteriorProbability": 0.030040595399188092
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 3.0085059126351084,
+            "posteriorProbability": 0.14817320703653586
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "2125596007",
+          "attributes": {
+            "bayesFactor": 5.767238743514488,
+            "posteriorProbability": 0.2500676589986468
+          }
+        },
+        {
+          "startPointId": "529397326",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 1.5089328314979868,
+            "posteriorProbability": 0.08024357239512855
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 0.2975821512417704,
+            "posteriorProbability": 0.016914749661705007
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 0.8572817278696097,
+            "posteriorProbability": 0.04722598105548038
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 1.1055558214506527,
+            "posteriorProbability": 0.060081190798376184
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 0.8135587386252485,
+            "posteriorProbability": 0.0449255751014885
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 4.8175976045979985,
+            "posteriorProbability": 0.2178619756427605
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 818.0872542389043,
+            "posteriorProbability": 0.979296346414073
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 0.363209746309215,
+            "posteriorProbability": 0.020568335588633288
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 0.2637447017377467,
+            "posteriorProbability": 0.015020297699594046
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "1588421523",
+          "attributes": {
+            "bayesFactor": 1.298292829381524,
+            "posteriorProbability": 0.06982408660351827
+          }
+        },
+        {
+          "startPointId": "70969475",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.20364332122053203,
+            "posteriorProbability": 0.011637347767253045
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 1.0343055959818725,
+            "posteriorProbability": 0.0564276048714479
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.9714336901039697,
+            "posteriorProbability": 0.05317997293640054
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 1.2739801885074895,
+            "posteriorProbability": 0.06860622462787551
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.06813867195693238,
+            "posteriorProbability": 0.003924221921515561
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.3412795463108255,
+            "posteriorProbability": 0.019350473612990526
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.44655167701442744,
+            "posteriorProbability": 0.02516914749661705
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 0.4096864055630087,
+            "posteriorProbability": 0.02313937753721245
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "529397326",
+          "attributes": {
+            "bayesFactor": 1.3525495187878656,
+            "posteriorProbability": 0.07253044654939107
+          }
+        },
+        {
+          "startPointId": "2079624560",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 0.9688233859713211,
+            "posteriorProbability": 0.0530446549391069
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 0.9038073742379343,
+            "posteriorProbability": 0.0496617050067659
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 1.3716142433450027,
+            "posteriorProbability": 0.07347767253044656
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 1.2793775013453559,
+            "posteriorProbability": 0.06887686062246279
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 20.994985980064627,
+            "posteriorProbability": 0.5483085250338295
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 0.6962986689511691,
+            "posteriorProbability": 0.03870094722598105
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 127796.26204237205,
+            "posteriorProbability": 1.0
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "70969475",
+          "attributes": {
+            "bayesFactor": 0.9401592001848218,
+            "posteriorProbability": 0.05155615696887686
+          }
+        },
+        {
+          "startPointId": "1989290987",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 2.2210252197242935,
+            "posteriorProbability": 0.11380243572395128
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 0.8701816400057961,
+            "posteriorProbability": 0.04790257104194858
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 0.1130731111751895,
+            "posteriorProbability": 0.006495263870094722
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 2.5544333550696203,
+            "posteriorProbability": 0.1286874154262517
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 0.2975821512417704,
+            "posteriorProbability": 0.016914749661705007
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 0.5008992931043877,
+            "posteriorProbability": 0.02814614343707713
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "2079624560",
+          "attributes": {
+            "bayesFactor": 0.8469749818891746,
+            "posteriorProbability": 0.04668470906630582
+          }
+        },
+        {
+          "startPointId": "1726992506",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 1.3797967779184317,
+            "posteriorProbability": 0.07388362652232747
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 0.46627599753381177,
+            "posteriorProbability": 0.02625169147496617
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 3.0764663192973565,
+            "posteriorProbability": 0.1510148849797023
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 0.553088072938042,
+            "posteriorProbability": 0.03098782138024357
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 0.31454982793919317,
+            "posteriorProbability": 0.017861975642760486
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "1989290987",
+          "attributes": {
+            "bayesFactor": 0.681115737897057,
+            "posteriorProbability": 0.037889039242219216
+          }
+        },
+        {
+          "startPointId": "928898448",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 0.18688859195507648,
+            "posteriorProbability": 0.010690121786197564
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 2.662919735376217,
+            "posteriorProbability": 0.1334235453315291
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 0.5008992931043877,
+            "posteriorProbability": 0.02814614343707713
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 0.7089707166333237,
+            "posteriorProbability": 0.03937753721244926
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "1726992506",
+          "attributes": {
+            "bayesFactor": 1.1108556574102213,
+            "posteriorProbability": 0.06035182679296346
+          }
+        },
+        {
+          "startPointId": "1898810230",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 3.0020571336791586,
+            "posteriorProbability": 0.14790257104194857
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 0.5505959530409309,
+            "posteriorProbability": 0.030852503382949932
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 0.4934686568107443,
+            "posteriorProbability": 0.02774018944519621
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "928898448",
+          "attributes": {
+            "bayesFactor": 0.676060453766554,
+            "posteriorProbability": 0.03761840324763194
+          }
+        },
+        {
+          "startPointId": "418800704",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 0.47615461301084483,
+            "posteriorProbability": 0.026792963464140732
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 0.3096985815320001,
+            "posteriorProbability": 0.017591339648173207
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "1898810230",
+          "attributes": {
+            "bayesFactor": 1.1480401630416999,
+            "posteriorProbability": 0.06224627875507442
+          }
+        },
+        {
+          "startPointId": "80085417",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.29032029511295365,
+            "posteriorProbability": 0.01650879566982409
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "418800704",
+          "attributes": {
+            "bayesFactor": 0.8572817278696097,
+            "posteriorProbability": 0.04722598105548038
+          }
+        },
+        {
+          "startPointId": "83343088",
+          "endPointId": "80085417",
+          "attributes": {
+            "bayesFactor": 10.44184253930939,
+            "posteriorProbability": 0.37645466847090664
+          }
+        }
+      ]
+    }
+  ]
+}

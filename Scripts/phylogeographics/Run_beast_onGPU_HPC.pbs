@@ -1,0 +1,26 @@
+#!/bin/sh
+#PBS -N H5geo
+#PBS -q gpuq1
+##PBS -q stdq1
+#PBS -l walltime=90:00:00
+#PBS -l select=1:host=hpc-gn002:ngpus=1:ncpus=1:mem=128gb 
+#PBS -o beasth5.out
+#PBS -e beasth5.err 
+#PBS -V
+cd /home/d24h_prog2/zoesong/influ/0906/GeoC2
+
+module load cuda11.0/toolkit/11.0.3
+#module load beagle-lib/3.1.2_cpu
+export CUDA_VISIBLE_DEVICES=3
+export LD_LIBRARY_PATH=$HOME/lib:$LD_LIBRARY_PATH
+export PKG_CONFIG_PATH=$HOME/lib/pkgconfig:$PKG_CONFIG_PATH
+export PATH=$PATH:/home/d24h_prog2/zoesong/BEASTv1.10.4/bin
+export CLASSPATH=.:/home/d24h_prog2/zoesong/BEASTv1.10.4/lib
+
+#/home/d24h_prog2/public_program/beast2/beast/bin/beast -beagle_info  #find out which resources are
+#java -jar /home/d24h_prog2/public_program/beast2/beast/lib/launcher.jar -beagle_GPU -instances 1 -threads 1 -resume BA2_0429_e9_HKall.xml
+/home/d24h_prog2/zoesong/BEASTv1.10.4/bin/beast -beagle_GPU -save_every 10000 -save_state H5DTAjumpskygridC2_1.state  H5G2skygridv2.xml
+
+
+#End of script
+
