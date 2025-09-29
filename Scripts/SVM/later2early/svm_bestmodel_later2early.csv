@@ -1,1 +1,2 @@
-
+index,accuracy_train,positive_accuracy_train,negative_accuracy_train,balance_accuracy_train,accuracy_test,positive_accuracy_test,negative_accuracy_test,balance_accuracy_test,avian_accuracy,earliest,nweight,kernal
+0,1,1,1,1,0.991076861,0.99168572,0.966666667,0.979176194,0.942650196,0.916666667,4,1
