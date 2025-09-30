@@ -101,7 +101,7 @@ segGT$label_name<-paste(str_split_fixed(segGT$label,'\\|',6)[,6],'_{',segGT$Newg
 groupInfoseg <- split(segGT$label, segGT$Newgenotype)
 
 #segment tree v2 PB2 
-segtree<-treeio::read.beast('/alrtTree/PB2_230909all.nexus')
+segtree<-treeio::read.beast('alrtTree/PB2_230909all.nexus')
 segtreedf<-as_tibble(segtree)
 segtree<-groupOTU(segtree,groupInfoseg)
 
@@ -124,7 +124,7 @@ ggsave('PB2segv2.pdf',width=15,height=50,limitsize = FALSE)
 
 
 #segment tree v2 PB1
-segtree<-treeio::read.beast('/alrtTree/PB1_230909all.nexus')
+segtree<-treeio::read.beast('alrtTree/PB1_230909all.nexus')
 segtreedf<-as_tibble(segtree)
 segtree<-groupOTU(segtree,groupInfoseg)
 
@@ -150,7 +150,7 @@ ggsave('PB1segv2.pdf',width=15,height=50,limitsize = FALSE)
 
 
 #segment tree v2 PA
-segtree<-treeio::read.beast('/alrtTree/PA_230909all.nexus')
+segtree<-treeio::read.beast('alrtTree/PA_230909all.nexus')
 segtreedf<-as_tibble(segtree)
 segtree<-groupOTU(segtree,groupInfoseg)
 
@@ -176,7 +176,7 @@ ggsave('PAsegv2.pdf',width=15,height=50,limitsize = FALSE)
 
 
 #segment tree v2 NP
-segtree<-treeio::read.beast('/alrtTree/NP_230909all.nexus')
+segtree<-treeio::read.beast('alrtTree/NP_230909all.nexus')
 segtreedf<-as_tibble(segtree)
 segtree<-groupOTU(segtree,groupInfoseg)
 
@@ -202,7 +202,7 @@ ggsave('NPsegv2.pdf',width=15,height=50,limitsize = FALSE)
 
 
 #segment tree v2 MP
-segtree<-treeio::read.beast('/alrtTree/MP_230909all.nexus')
+segtree<-treeio::read.beast('alrtTree/MP_230909all.nexus')
 segtreedf<-as_tibble(segtree)
 segtree<-groupOTU(segtree,groupInfoseg)
 
@@ -229,7 +229,7 @@ ggsave('MPsegv2.pdf',width=15,height=50,limitsize = FALSE)
 
 
 #segment tree v2 NS
-segtree<-treeio::read.beast('/alrtTree/NS_230909all.nexus')
+segtree<-treeio::read.beast('alrtTree/NS_230909all.nexus')
 segtreedf<-as_tibble(segtree)
 segtree<-groupOTU(segtree,groupInfoseg)
 
@@ -256,7 +256,7 @@ ggsave('NSsegv2.pdf',width=15,height=50,limitsize = FALSE)
 
 
 #segment tree v2 N1
-segtree<-treeio::read.beast('/alrtTree/N1_230909all.nexus')
+segtree<-treeio::read.beast('alrtTree/N1_230909all.nexus')
 segtreedf<-as_tibble(segtree)
 segtree<-groupOTU(segtree,groupInfoseg)
 
@@ -285,7 +285,7 @@ ggsave('N1segv2.pdf',width=15,height=50,limitsize = FALSE)
 
 
 #segment tree v2 H5
-segtree<-treeio::read.beast('/alrtTree/H5_230909all.nexus')
+segtree<-treeio::read.beast('alrtTree/H5_230909all.nexus')
 segtreedf<-as_tibble(segtree)
 segtree<-groupOTU(segtree,groupInfoseg)
 
