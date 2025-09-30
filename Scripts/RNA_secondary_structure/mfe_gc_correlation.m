@@ -19,13 +19,8 @@ filelist = {
 %'_rnafold_statics_Av.csv';
  };
 
-prefixPath = 'MFE/NS1/NS1';
+prefixPath = '../../MFE/NS1/NS1';
 
- % NS
- ymin = -280;
- ymax = -200;
- xmin = 40;
- xmax = 45;
 
 slope = zeros(size(filelist,1),1);
 pvalue = zeros(size(filelist,1),1);
@@ -101,19 +96,9 @@ for i=1:size(filelist,1)
     gc12_corr_value(i,1) = rho;
     gc12_corr_pvalue(i,1) = pval;
 
-
-    %subplot(3, 4, i);
-
-    %plot(x,y,'.', 'Color',colors(3,:));
-    hold on
-     if i <= 12 && i >= 1
-     %plot(x1,y1, 'r');
-     end
-     
-     if i == 15
+     if i == 1
         d1 = d(find(d(:,1)<=1958), :);
-        %d1 = d1(find(d1(:,1)>1918), :);
-        avgx = d1(:,3);
+            avgx = d1(:,3);
         avgy = d1(:,2);
         p=polyfit(avgx,avgy,1);  
         X = [ones(size(avgx)), avgx];
@@ -126,10 +111,6 @@ for i=1:size(filelist,1)
 		bints(i,1) = bint(2,1);
 		bints(i,2) = bint(2,2);
 		R2(i,1) = stats(1,1);
-      
-		plot(x1,y1, 'r');
-      
-		hold on
       
 		d2 = d(find(d(:,1)>1958), :);
         avgx = d2(:,3);
@@ -145,33 +126,7 @@ for i=1:size(filelist,1)
 		bints(i,3) = bint(2,1);
 		bints(i,4) = bint(2,2);
 		R2(i,2) = stats(1,1);
-      
-		%plot(x1,y1, 'r');
-
     end
-     
-    titlename = strrep(filelist{i,1},'_rnafold_statics_','');
-    titlename = strrep(titlename,'.csv','');
- 
-    titlename = strcat(titlename, ' (', mysize, ')');
-    title(titlename, 'FontSize', 7);  
-    
-%     xmin=floor(min(x(:,1)));
-%       xmax=ceil(max(x(:,1)));
-%         
-%       xlim([xmin,xmax]);
-%       interval =  (xmax-xmin)/2;
-%       set(gca,'XTick',[xmin:interval:xmax]);
-
-    set(gca,'xlim', [xmin, xmax], 'FontSize', 6);
-    set(gca,'ylim', [ymin, ymax], 'FontSize', 6);
-     
-     if i==1
-        %ylabel('GC content (%)', 'FontSize', 7);  
-        ylabel('MFE (kcal/mol)', 'FontSize', 7);  
-		xlabel('GC content (%)', 'FontSize', 7);  
-        %xlabel('Time', 'FontSize', 7);  
-     end
 end
 
 summary = zeros(size(filelist,1),5);
