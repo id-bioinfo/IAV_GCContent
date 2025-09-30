@@ -41,12 +41,13 @@ Very few lineages of influenza A virus (IAV) have evolved sustained transmission
 + The classifier was based on a support vector machine (SVM) model implemented in LIBSVM v3.3 with linear kernel (https://github.com/cjlin1/libsvm).
 + A demo to apply our SVM model to test the risk of sustained mammalian transmission for recently zoonotic mink H5 viruses.
 ```bash
+cd /IAV_GCContent/SVM_model
 #compute the features of GC content and GC dinucleotide frequency (CpG, GpC, GpG and CpC) from fasta files in LIBSVM format
-#please firstly edit the path to fasta files in Scripts/computeFeature.py
-python Scripts/computeFeature.py
+#please firstly edit the path to fasta files in computeFeature.py
+python computeFeature.py
 #apply our SVM model for the risk assessment
-modelfile=SVM_model/cds/training_svm.model
-testfile=SVM_model/demo_minkH5_cds/gc_content_dinucleotide_libsvm.txt
+modelfile=cds/training_svm.model
+testfile=demo_minkH5_cds/gc_content_dinucleotide_libsvm.txt
 #the result is saved in $testfile"_predict"
 #the installation and usage of libsvm-3.3 please refer to https://github.com/cjlin1/libsvm.
 libsvm-3.3/svm-predict $testfile $modelfile $testfile"_predict"
