@@ -139,7 +139,7 @@ namespace RNAfold_script
             for (int i = 0; i < gdata.Count; ++i)
             {
                 string lineage = gdata[i][0];
-                else if (mammallineageSet.Contains(lineage)) lineage = "Ma";
+                if (mammallineageSet.Contains(lineage)) lineage = "Ma";
                 else if (lineage != "Av") lineage = "Sp";
                 if (!lineageAll.ContainsKey(lineage)) lineageAll.Add(lineage, new List<String>());
                 for (int j = 1; j < gdata[i].Length; ++j)
