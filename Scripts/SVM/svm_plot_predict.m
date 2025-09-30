@@ -17,7 +17,7 @@ filelist = {
 'svm_Sw5_year.txt';
  };
 
-prefixPath = '\svm_result\';
+prefixPath = 'svm_result/';
 
 figure(1)
 % ymin = 0.38;

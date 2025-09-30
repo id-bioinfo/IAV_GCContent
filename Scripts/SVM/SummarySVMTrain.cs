@@ -46,7 +46,7 @@ namespace SummarySVMTrain
                         validateles.Add(new List<double>());
                         validateles.Last().Add(Double.Parse(validatelog[j].Replace("%","").Split(' ').Last()));
                     }
-                    else if(validatelog[j].Contains("Cross Validation Balanced Accuracy"))
+                    else if(validatelog[j].Contains("Cross Validation Balanced Accuracy")) //need to modify the code in LIBSVM to print out Cross Validation Balanced Accuracy
                     {
                         validateles.Last().Add(Double.Parse(validatelog[j].Replace("%", "").Split(' ').Last()));
                     }
@@ -69,7 +69,7 @@ namespace SummarySVMTrain
                 double nweight, pweight, kernal, cost;
  
                 int myIdx = 0;
-                for (int j = 0; j < svm_bestmodel_repeat_str[i].Count; j += 5)
+                for (int j = 0; j < svm_bestmodel_repeat_str[i].Count; j += 3)
                 {
                     if (svm_bestmodel_repeat_str[i][j].Count == 10 && svm_bestmodel_repeat_str[i][j + 1].Count == 10)
                     {
@@ -81,8 +81,8 @@ namespace SummarySVMTrain
                         negative_accuracy_test = svm_bestmodel_repeat_str[i][myIdx][4] / svm_bestmodel_repeat_str[i][myIdx][5];
                         ++myIdx;
                         avian_accuracy_test = svm_bestmodel_repeat_str[i][myIdx][0] / svm_bestmodel_repeat_str[i][myIdx][1];
-                        ++myIdx;
-                        lineage_Sw2P_accuracy_test = svm_bestmodel_repeat_str[i][myIdx][0] / svm_bestmodel_repeat_str[i][myIdx][1];
+                        //++myIdx;
+                        //lineage_Sw2P_accuracy_test = svm_bestmodel_repeat_str[i][myIdx][0] / svm_bestmodel_repeat_str[i][myIdx][1];
                         validate_accuracy = svm_bestmodel_crossvalidte[i][j / 5][0];
                         validate_balance_accuracy = svm_bestmodel_crossvalidte[i][j / 5][1];
                         balance_accuracy = validate_balance_accuracy; 
@@ -104,10 +104,8 @@ namespace SummarySVMTrain
                 negative_accuracy_test = svm_bestmodel_repeat_str[i][myIdx][4] / svm_bestmodel_repeat_str[i][myIdx][5];
                 ++myIdx;
                 avian_accuracy_test = svm_bestmodel_repeat_str[i][myIdx][0] / svm_bestmodel_repeat_str[i][myIdx][1];
-                ++myIdx;
-                lineage_Sw2P_accuracy_test = svm_bestmodel_repeat_str[i][myIdx][0] / svm_bestmodel_repeat_str[i][myIdx][1];
-                ++myIdx;
-                lineage_Sw2N_accuracy_test = svm_bestmodel_repeat_str[i][myIdx][0] / svm_bestmodel_repeat_str[i][myIdx][1];
+                //++myIdx;
+                //lineage_Sw2P_accuracy_test = svm_bestmodel_repeat_str[i][myIdx][0] / svm_bestmodel_repeat_str[i][myIdx][1];
 
                 nweight = svm_bestmodel_repeat_str[i][bestIdx][6];
                 pweight = svm_bestmodel_repeat_str[i][bestIdx][7];
@@ -123,7 +121,7 @@ namespace SummarySVMTrain
                 one_repeat.Add(negative_accuracy_test);
                 one_repeat.Add((positive_accuracy_test + negative_accuracy_test) / 2);
                 one_repeat.Add(avian_accuracy_test);
-                one_repeat.Add(lineage_Sw2P_accuracy_test);
+                //one_repeat.Add(lineage_Sw2P_accuracy_test);
       
                 one_repeat.Add(nweight);
                 one_repeat.Add(pweight);
@@ -136,7 +134,8 @@ namespace SummarySVMTrain
             string outputfile = prefix_path + "svm_bestmodel_12_11To1_lineage.csv";
 
             StreamWriter fileWriter = new StreamWriter(outputfile, false, Encoding.ASCII);
-            fileWriter.WriteLine("index,accuracy_train,positive_accuracy_train,negative_accuracy_train,balance_accuracy_train,accuracy_test,positive_accuracy_test,negative_accuracy_test,balance_accuracy_test,avian_accuracy,earliest,nweight,pweight,kernal,c");
+            fileWriter.WriteLine("index,accuracy_train,positive_accuracy_train,negative_accuracy_train,balance_accuracy_train,accuracy_test,positive_accuracy_test,negative_accuracy_test,balance_accuracy_test,avian_accuracy,nweight,pweight,kernal,c");
+            //fileWriter.WriteLine("index,accuracy_train,positive_accuracy_train,negative_accuracy_train,balance_accuracy_train,accuracy_test,positive_accuracy_test,negative_accuracy_test,balance_accuracy_test,avian_accuracy,earliest,nweight,pweight,kernal,c");
             for (int i = 0; i < svm_bestmodel_repeats.Count; ++i)
             {
                 fileWriter.Write(i);
