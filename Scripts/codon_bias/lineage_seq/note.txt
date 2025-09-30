@@ -1,2 +1,2 @@
 # After download the data from GISAID, please extract the sequences for different lineages
-# based on the lineage information at genomic_features/all_features_seqname_lineage_year.tsv
+# based on the lineage information at phylogenetic/seqname_lineage.txt
