@@ -14,7 +14,7 @@ Very few lineages of influenza A virus (IAV) have evolved sustained transmission
   + SVM_model: the SVM model files and demo.
   + Scripts: scripts used for analysis.
     + analysis_all_in_one.sh: all-in-one script.
-      ###### Because the relevant scripts were written by multiple programming languages, i.e. Python, R, Matlab, C#, Jupyter notebook and Shell. Some parts of analysis_all_in_one.sh need to be copied to proper environments for running.
+      + *Because the relevant scripts were written by multiple programming languages, i.e. Python, R, Matlab, C#, Jupyter notebook and Shell. Some parts of analysis_all_in_one.sh need to be copied to proper environments for running.*
     + block_alignment: data filtering and alignment.
     + phylogenetic: phylogenetic tree construction and lineage clustering.
     + genomic_features: GC content and GC dinucleotide frequencies.
@@ -55,7 +55,10 @@ libsvm-3.3/svm-predict $testfile $modelfile $testfile"_predict"
 ```
 #traingfile and testfile are in folder "SVM_model"
 #training
+trainfile=cds/training_features_noEarliest.tsv
+modelfile=cds/your_training_svm.model
 libsvm-3.3/svm-train -t 0 -w-1 16 $trainfile $modelfile
 #testing
+testfile=cds/testing_features_Earliest.tsv
 libsvm-3.3/svm-predict $testfile $modelfile $testfile"_predict"
 ```
