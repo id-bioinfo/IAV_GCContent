@@ -17,7 +17,7 @@ filelist = {
 'Sw5_cai_time.csv';
  };
 
-prefixPath = '/CAI/;
+prefixPath = '../../CAI/';
 
 figure(1)
 % ymin = 0.38;
@@ -88,5 +88,5 @@ for i=1:size(filelist,1)
      end
 end
 
-print(strcat(prefixPath,'cai_lineage.pdf'),'-dpdf', '-r300');
+print('cai_lineage.pdf','-dpdf', '-r300');
 
