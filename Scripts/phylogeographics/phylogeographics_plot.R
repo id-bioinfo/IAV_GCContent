@@ -2,6 +2,7 @@ library(sf)
 library(sp)
 library(ggmap)
 library(cowplot)
+library(tidyverse)
 
 #read geojson format map
 xtemp1<-st_read('Europelevel2.geo.json')
@@ -11,9 +12,9 @@ xtemp<-rbind(xtemp1,xtemp2,xtemp3)
 ggplot(xtemp)+geom_sf(aes(geometry=geometry),size=0.1)+coord_sf(xlim=c(-40,55),ylim=c(30,80))+scale_x_continuous(expand=c(0,0))
 
 #read bayes factor calculated from beast results
-bf<-read_tsv('beast\\bf123.txt')
+bf<-read_tsv('beast/bf123.txt')
 colnames(bf)=c('from','to','bayes-factor','postprob')
-rate<-read_tsv('beast\\H5G2rate.txt')
+rate<-read_tsv('beast/H5G2rate.txt')
 coord<-read_tsv('coord_df.tsv',col_names = FALSE)
 colnames(coord)=c('location','lat','lon','adm0_a3')
 countrynum<-read_tsv('countrynum.txt')
@@ -44,4 +45,4 @@ ggplot(xtempmap)+
   xlab('')+ylab('')+
   scale_fill_continuous(low='#FFFFCC',high="#FC4E2A",guide='colorbar',na.value='#F0F0F0',name='Number of sequence')
 #save
-ggsave('beast/mapbf0920.pdf',width = 6,height = 10)
+ggsave('mapbf0920.pdf',width = 6,height = 10)
