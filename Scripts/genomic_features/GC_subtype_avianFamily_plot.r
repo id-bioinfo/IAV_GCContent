@@ -1,7 +1,7 @@
 library(ggplot2)
 
 #Fig. 4a
-data1 = read.csv(file = 'GC_subtype_avianFamily_data\\av_spo_genomicGC.csv')
+data1 = read.csv(file = 'GC_subtype_avianFamily_data/av_spo_genomicGC.csv')
 p1 <- ggplot(data1, aes(x=Group, y=GenomicGC, fill=Label)) +
   geom_violin(width=1, size=0.4) + 
   scale_fill_manual(values=c("#DCDCDC","#778899")) +
@@ -11,7 +11,7 @@ p1 <- ggplot(data1, aes(x=Group, y=GenomicGC, fill=Label)) +
 p1
 
 #
-data2 = read.csv(file = 'GC_subtype_avianFamily_data\\per_genomicGC_scaledTime.csv')
+data2 = read.csv(file = 'GC_subtype_avianFamily_data/per_genomicGC_scaledTime.csv')
 p2 <- ggplot(data2, aes(factor(Group), GenomicGC)) +
   geom_violin(width=1, size=0.2) + theme_classic() +
   geom_jitter(height = 0, size = 0.5, width = 0.05, aes(colour = scaledTime)) + 
@@ -22,7 +22,7 @@ p1+p2
 
 
 #Extended Data Fig. 3
-data3 = read.csv(file = 'GC_subtype_avianFamily_data\\avianIAV_persistent_GC_family.csv')
+data3 = read.csv(file = 'GC_subtype_avianFamily_data/avianIAV_persistent_GC_family.csv')
 data3$family  = factor(data3$family, levels=c('Recurvirostridae',
                                               'Ciconiidae',
                                               'Threskiornithidae',
