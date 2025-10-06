@@ -35,9 +35,6 @@ X_r2 = ldaFit.transform(X)
 #plt.ylim(-5, 5)
 #plt.savefig("allfeature_LDA_avian_sporadic_persistent.pdf")
 
-#change the used index from 2:42 by every 5 postions to plot the LDA for each CDS
-#this can generate Extended Data Fig. 4
-
 sporadic_avian = X_r2[y == -1, 0:2]
 sporadic_avian_labels = lables[y == -1];
 sporadic_avian = sporadic_avian[sporadic_avian_labels < 0, 0:2];
@@ -138,4 +135,5 @@ plt.plot(X1_r2[lables1 == 19, 0], X1_r2[lables1 == 19, 1], color="black", marker
 plt.legend(ncol=8, loc = "best")
 plt.xlim(-5, 6)
 plt.ylim(-5, 5)
+
 plt.savefig("allfeature_LDA_avian_sporadic_persistent_genotype_cattle_2321c_huH3N8.pdf")
