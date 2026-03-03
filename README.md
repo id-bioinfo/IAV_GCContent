@@ -63,3 +63,6 @@ libsvm-3.3/svm-train -t 0 -w-1 16 $trainfile $modelfile
 testfile=cds/testing_features_Earliest.tsv
 libsvm-3.3/svm-predict $testfile $modelfile $testfile"_predict"
 ```
+
+# Citation
+Ye, Y., Shuai, H., Song, Y. et al. Genomic features associated with sustained mammalian transmission of avian influenza A viruses. Nat Microbiol (2026). https://doi-org.eproxy.lib.hku.hk/10.1038/s41564-025-02257-4
