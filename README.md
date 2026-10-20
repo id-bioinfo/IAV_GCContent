@@ -28,7 +28,7 @@ Very few lineages of influenza A virus (IAV) have evolved sustained transmission
     + phylogeographics: phylogeographics analysis
     + tree_annotation: Tree annotation
     
-+ Due to GISAID's data sharing policy, the influenza A virus genomic data are not shared here but can be downloaded with accession numbers found in iav_gisaid_id_115520.txt and EPI_SET_250116bq at https://www.gisaid.org/.
++ Due to GISAID's data sharing policy, the influenza A virus genomic data are not shared here but can be downloaded with accession numbers found in [iav_gisaid_id_115520.txt](https://github.com/id-bioinfo/IAV_GCContent/blob/main/iav_gisaid_id_115520.txt) and EPI_SET_250116bq at https://www.gisaid.org/.
 
 # Risk assessment tool
 <img src="intro.png" width="500">
